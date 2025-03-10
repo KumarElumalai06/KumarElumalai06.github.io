@@ -11,7 +11,7 @@ export default function Hero() {
                             Where every slice is  <br /> a <span className="italic">Masterpiece</span>
                         </h1>
                         <p className="mt-4 text-base sm:text-lg lg:text-xl text-gray-200 font-light">
-                            Welcome to Cakes n' Frost, where every bite is a celebration of <br />
+                            Welcome to Cakes  &apos;n; Frost, where every bite is a celebration of <br />
                             flavor and creativity. Our cakes and desserts are crafted with <br />
                             the finest ingredients.
                         </p>

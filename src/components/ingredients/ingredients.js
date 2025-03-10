@@ -24,7 +24,7 @@ export default function Ingredients() {
                         Discover our fresh ingredients
                     </h2>
                     <p className="text-black text-sm md:text-base mb-6 text-center items-end justify-end">
-                        Treat your taste buds with our handpicked gluten-free and fresh ingredients. We believe that the best cakes start with the finest ingredients. That's why we handpick every element, from farm-fresh eggs to premium chocolate, ensuring that every bite is pure perfection.
+                        Treat your taste buds with our handpicked gluten-free and fresh ingredients. We believe that the best cakes start with the finest ingredients. That&rsquo;s why we handpick every element, from farm-fresh eggs to premium chocolate, ensuring that every bite is pure perfection.
                     </p>
                     <div class="flex justify-center items-center">
                         <button className="bg-[#C8B7A6] text-[#5A4635] px-6 py-2 w-40 h-10 text-center hover:bg-[#B49A88] transition duration-300">

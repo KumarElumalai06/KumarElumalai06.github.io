@@ -7,7 +7,7 @@ export default function Wedding() {
                 <h1 className="text-block p-6 text-6xl  font-semibold text-[#5A4635] w-auto items-center justify-center">weddings made <br /> special with our cake</h1>
                 <p className="text-block p-6 md:max-w-2xl">We create custom wedding cakes that add a touch of sweetness <br /> to your special day.
                     Our expert bakers handcraft every detail to <br /> match you vision. pre-book your wedding
-                    cake today to ensure <br /> a stunning centerpiece that's delicious as it is beautiful.
+                    cake today to ensure <br /> a stunning centerpiece that&rsquo;s delicious as it is beautiful.
                 </p>
                 <div className="flex justify-center items-center gap-5 ">
                     <button className="items-start w-60 h-10 border-2 border-black">Book now</button>

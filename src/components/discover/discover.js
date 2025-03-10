@@ -11,7 +11,7 @@ export default function Discover() {
                             Discover our Unique cake offerings today
                         </h2>
                         <p className="text-black text-2lg">
-                            At 'n' Frost, we believe every celebration deserves a special cake. Our customizable options let you create the perfect dessert for any occasion.
+                            At  &apos;n; Frost, we believe every celebration deserves a special cake. Our customizable options let you create the perfect dessert for any occasion.
                         </p>
                     </div>
                 </div>

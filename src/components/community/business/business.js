@@ -39,7 +39,7 @@ export default function Categories() {
                             ★ ★ ★ ★ ★
                         </div>
                         <p className="mt-3 text-gray-700 max-w-2xl px-4 text-lg text-center justify-center items-center">
-                            "I ordered a custom birthday cake from Cakes 'n' Frost, and it was beyond my expectations! The cake was a chef’s kiss. Must try!"
+                            &quot;I ordered a custom birthday cake from Cakes &apos;n; Frost, and it was beyond my expectations! The cake was a chef&rsquo;s kiss. Must try!&quot;
                         </p>
                     </SwiperSlide>
                 ))}
