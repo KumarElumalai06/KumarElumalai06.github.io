@@ -8,13 +8,13 @@ import "swiper/css/pagination";
 
 export default function Categories() {
     const categories = [
-        { img: "/images/cake1.png", name: "Red Valvet Pastry" },
-        { img: "/images/cake2.png", name: "Fashion" },
-        { img: "/images/cake3.png", name: "Home & Kitchen" },
-        { img: "/images/cake4.png", name: "Sports" },
-        { img: "/images/cake1.png", name: "Toys" },
-        { img: "/images/cake2.png", name: "Beauty" },
-        { img: "/images/cake3.png", name: "Automotive" }
+        { img: "/images/cake1.png", name: "Celebration Cakes" },
+        { img: "/images/cake2.png", name: "pastries" },
+        { img: "/images/cake3.png", name: "cookies" },
+        { img: "/images/cake4.png", name: "Bakery" },
+        { img: "/images/Red valvet.png", name: "Red valvet " },
+        { img: "/images/valvet.png", name: "valvet" },
+        { img: "/images/fruity.png", name: "fruity" }
     ];
 
     return (
@@ -34,16 +34,16 @@ export default function Categories() {
                 className="w-full max-w-screen-lg"
             >
                 {categories.map((category, index) => (
-                    <SwiperSlide key={index} className="flex flex-col items-center w-40 mt-5 justify-center">
-                        <div className="w-28 h-28 rounded-full shadow-lg overflow-hidden flex justify-center items-center">
+                    <SwiperSlide key={index} className="flex flex-col items-center w-full mt-5 justify-center">
+                        <div className="w-28 h-28 rounded-full  overflow-hidden flex justify-center items-center">
                             <img
                                 src={category.img}
                                 alt={category.name}
-                                className="w-full h-full object-contain object-center"
+                                className="w-full h-full object-contain object-center text-center items-center justify-center"
                             />
                         </div>
 
-                        <p className="mt-2 text-lg font-semibold text-center">
+                        <p className="mt-2 text-lg font-semibold text-center items-center">
                             {category.name}
                         </p>
                     </SwiperSlide>

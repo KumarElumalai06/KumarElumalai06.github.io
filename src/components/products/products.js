@@ -21,7 +21,7 @@ const products = [
         id: 3,
         name: "Assorted Cupcakes",
         price: "₹149/-",
-        image: "/images/cupcake.png",
+        image: "/images/Red valvet.png",
         veg: true,
         customizable: true,
     },
@@ -29,7 +29,7 @@ const products = [
         id: 4,
         name: "Red Valvet 1kg",
         price: "₹949/-",
-        image: "/images/valvet.png",
+        image: "/images/Red valvet.png",
         veg: true,
         customizable: true,
     },
@@ -37,7 +37,7 @@ const products = [
         id: 5,
         name: "Coffee Pastry",
         price: "₹169/-",
-        image: "/images/coffe.png",
+        image: "/images/Red valvet.png",
         veg: true,
         customizable: true,
     },
@@ -45,7 +45,7 @@ const products = [
         id: 6,
         name: "Assorted Chessecake",
         price: "₹1249/-",
-        image: "/images/Assorted.png",
+        image: "/images/Red valvet.png",
         veg: true,
         customizable: true,
     },
@@ -53,7 +53,7 @@ const products = [
         id: 7,
         name: "Nutty Vanilla 1kg",
         price: "₹849/-",
-        image: "/images/Nutty vanilla.png",
+        image: "/images/Red valvet.png",
         veg: true,
         customizable: true,
     },
@@ -61,7 +61,7 @@ const products = [
         id: 8,
         name: "Fruity Chocolate 1kg",
         price: "₹1049/-",
-        image: "/images/fruity.png",
+        image: "/images/Red valvet.png",
         veg: true,
         customizable: true,
     },
@@ -86,8 +86,8 @@ export default function ProductList() {
                         <Image
                             src={product.image}
                             alt={product.name}
-                            width={100}
-                            height={100}
+                            width={200}
+                            height={200}
                             objectFit="contain"
                             className="mx-auto"
                         />

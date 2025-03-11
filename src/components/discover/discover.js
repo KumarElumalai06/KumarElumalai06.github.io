@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Discover() {
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center w-full">
             <div className=" text-center relative w-full">
                 <div className="flex items-center justify-center  w-full ">
                     <div className="flex flex-col items-center text-center w-full md:w-3/4 lg:w-1/2  p-6 md:p-12 ">
@@ -17,7 +17,7 @@ export default function Discover() {
                 </div>
 
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl ">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full  ">
                     {/* <div className="relative">
                         <Image src="/images/border-left.png" alt="cake" width={40} height={40} objectFit="contain" className="mx-auto text-start absolute items-start" />
                         <Image src="/images/border-right.png" alt="cake" width={40} height={40} objectFit="contain" className="mx-auto text-end absolute items-end" />
@@ -34,7 +34,7 @@ export default function Discover() {
                             Fast and Reliable Delivery Service
                         </span>
                         <p>Get our cakes at your doorstep with 100% customer support.</p>
-                        <button className="mt-4 bg-[#C8B7A6] text-[#5A4635] w-40 h-10">
+                        <button className="mt-5 bg-[#C8B7A6] text-[#5A4635] w-40 h-10">
                             order now
                         </button>
                     </div>
